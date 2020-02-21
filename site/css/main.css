@@ -1,3 +1,16 @@
-#page-header h1 {
+ h1 {
   color: red;
+}
+.gallery{
+  margin:5px 5 px
+}
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+  background-color:green;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.5);
 }
